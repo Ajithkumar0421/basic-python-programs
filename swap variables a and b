@@ -1,0 +1,16 @@
+Add code to the following cell to swap variables a and b 
+(so that a refers to the object previously referred to by b and vice versa).
+
+a = [1, 2, 3]
+b = [3, 2, 1]
+
+
+answer:
+The most straightforward solution is to use a third variable to temporarily store one of the old values. e.g.:
+
+tmp = a
+a = b
+b = tmp
+If you've read lots of Python code, you might have seen the following trick to swap two variables in one line:
+
+a, b = b, a
