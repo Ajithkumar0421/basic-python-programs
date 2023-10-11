@@ -1,0 +1,17 @@
+here i am assigning a two variables with some values to find area of circle, with this help of you can this methodoly,
+you can use for diffrent structures,like square, rectangle,triangle, 
+you can find area of those strucures
+
+pi = 3.14159 # approximate
+diameter = 3
+
+# Create a variable called 'radius' equal to half the diameter
+radius = diameter/2
+
+# Create a variable called 'area', using the formula for the area of a circle: pi times the radius squared
+area = pi*(radius**2)
+
+print(area)
+
+output:
+7.068
