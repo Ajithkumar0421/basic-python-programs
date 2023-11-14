@@ -1,0 +1,8 @@
+Here we can multiply the list:
+
+here is the sample code:
+cars = ["bmw","audi","porsche"]*5
+print(cars)
+
+Output:
+['bmw', 'audi', 'porsche', 'bmw', 'audi', 'porsche', 'bmw', 'audi', 'porsche', 'bmw', 'audi', 'porsche', 'bmw', 'audi', 'porsche']
