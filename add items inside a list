@@ -4,6 +4,9 @@ cars = ["bmw","audi","porsche"]
 cars.insert(1,"bugatti")
 print(cars)
 
+Output:
+['bmw', 'bugatti', 'audi', 'porsche']
+
 here i'll explain the 4 th line of the code:
 cars  - assigned variable for list
 insert - this is function
