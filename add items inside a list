@@ -1,0 +1,10 @@
+Adding items inside a list:
+
+cars = ["bmw","audi","porsche"]
+cars.insert(1,"bugatti")
+print(cars)
+
+here i'll explain the 4 th line of the code:
+cars  - assigned variable for list
+insert - this is function
+(1,"bugatti") - 1 shows where we want place the string(bugatti), bugatti-this is  string
